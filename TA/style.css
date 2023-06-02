@@ -1,0 +1,130 @@
+body {
+    font-family:"Gill Sans Extrabold", sans-serif;
+    text-align: center;
+    background-image: url('image/bggallery.jpg');
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.8); /* Mengatur background dengan transparansi 50% (0.5) */
+    display: flex;
+    background-size: cover;
+    background-position: fill; /* Mengatur posisi gambar menjadi di tengah */
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Gill Sans Extrabold", sans-serif;
+  color: whitesmoke;
+}
+
+.header-left h1 {
+  margin: 2;
+
+}
+
+.header-right .btn {
+  margin: 10px;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke; /* Warna latar belakang kotak putih */
+    padding: 20px; /* Ruang padding di sekitar konten */
+    border-radius: 5px; /* Membuat sudut kotak lebih melengkung */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Efek bayangan pada kotak */
+    margin: 0 auto; /* Memposisikan kotak secara horizontal di tengah */
+    max-width: 600px; /* Lebar maksimum kotak */
+ 
+}
+
+
+.menu {
+    background-color: #f2f2f2; /* Warna latar belakang menu */
+    padding: 10px; /* Ruang padding di sekitar menu */
+    margin-bottom: 20px; /* Jarak antara menu */
+    border-radius: 5px; /* Membuat sudut menu lebih melengkung */
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+.menu-item {
+    flex-basis: 45%;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+  .galeri{
+    text-align: center;
+    margin-bottom: 0;
+    color: #f2f2f2;
+    display: flex;
+    justify-content: center; 
+  }
+
+  .body{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+  }
+
+  .gallery-images {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    align-items: flex-end; 
+  }
+  
+  .gallery-images img {
+    margin-left: 15px;
+    margin: 2;
+    margin-bottom: 5px;
+    max-width: 45%;
+    max-height: 50%;
+    display: block;
+
+  }
+  
+  .gallery-info {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 1.5;
+    display: block;
+    margin-right: 50px;
+    text-align: left;
+    color: #f2f2f2;
+    font-size: 15px;
+  }
+ 
+
